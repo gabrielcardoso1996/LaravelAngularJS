@@ -64,3 +64,21 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 # arca
+
+
+Dependencias para execução do projeto
+Composer instalado, mysql
+Configurar em .env 
+DB_DATABASE=arca
+DB_USERNAME=usuario banco
+DB_PASSWORD=senha banco
+
+Logo em seguida utilizar o comando php artisan migrate, para realizar a criação das tabelas.
+inserir os campos category
+INSERT INTO `category` (`id`,`desc`,`created_at`,`updated_at`) VALUES (1,'Auto',NULL,NULL);
+INSERT INTO `category` (`id`,`desc`,`created_at`,`updated_at`) VALUES (2,'Beauty and Fitness',NULL,NULL);
+INSERT INTO `category` (`id`,`desc`,`created_at`,`updated_at`) VALUES (3,'Entertainment',NULL,NULL);
+INSERT INTO `category` (`id`,`desc`,`created_at`,`updated_at`) VALUES (4,'Food and Dining',NULL,NULL);
+INSERT INTO `category` (`id`,`desc`,`created_at`,`updated_at`) VALUES (5,'Health',NULL,NULL);
+INSERT INTO `category` (`id`,`desc`,`created_at`,`updated_at`) VALUES (6,'Sports',NULL,NULL);
+INSERT INTO `category` (`id`,`desc`,`created_at`,`updated_at`) VALUES (7,'Travel',NULL,NULL);
